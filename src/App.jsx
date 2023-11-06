@@ -31,7 +31,7 @@ console.log(hasError);
   return (
     <div className='app'>
       <header>
-        <img className='app__img' src="../public/rick-and-morty.jpg" alt="" />
+        <img className='app__img' src="../rick-and-morty.jpg" alt="" />
       </header>
       <form  className='app__form' onSubmit={handleLocation}>
         <input className='app__input' ref={inputLocation} type="text" />
