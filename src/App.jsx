@@ -21,7 +21,7 @@ function App() {
 
   const inputLocation = useRef()
 
-  const handleLocation = e => {
+  const handleLocation = (e) => {
     e.preventDefault()
     setLocationId(inputLocation.current.value.trim())
   }
@@ -39,9 +39,9 @@ console.log(hasError);
       </form>
 
       {
-        isLoading ? <h2>Loading....</h2>
+        isLoading ? <h2 className='load__title'>Loading...</h2>
         : (hasError || locationId === "0"
-          ? <h2>X Hey! you must provide an id from 1 to 126</h2>
+          ? <h2 className='error__title'>X Hey! you must provide an id from 1 to 126</h2>
           : (<>
             <InfoLocation location={location} />
             <div className='app__card-container'>

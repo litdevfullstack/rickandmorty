@@ -79,3 +79,16 @@ img {
     gap: 2em;
     justify-content: center;
 }
+
+.error__title {
+    color: #fff;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.load__title {
+    color: #fff;
+    margin-top: 1em;
+    text-align: center;
+}
+
