@@ -22,9 +22,9 @@ const CardResident = ({ url }) => {
                 <h3 className="resident__name">{resident?.name}</h3>
                 <hr  className="resident__separator"/>
               <ul className="resident__stats">
-              <li><span>Specie:</span><span>{resident?.species}</span></li>
-              <li><span>Origin</span><span>{resident?.origin.name}</span></li>
-              <li><span>Eppisodes where appear :</span><span>{resident?.episode.length}</span></li>
+              <li><span>Specie: </span><span>{resident?.species}</span></li>
+              <li><span>Origin: </span><span>{resident?.origin.name}</span></li>
+              <li><span>Eppisodes where appear: </span><span>{resident?.episode.length}</span></li>
               </ul>
             </article>
         </section>
